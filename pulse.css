@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.enüst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.üstbölüm {
+    background-image: linear-gradient(to bottom, #eafaf1, #eafaf1e1, #eafaf1c2);
+}
+.üstsağtaraf {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 60px;
+}
+.logo {
+    color: #1fe374;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 60px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.list {
+    list-style: none;
+}
+.lists {
+    float: left;
+    padding: 20px;
+    cursor: pointer;
+    color: #00ad6a;
+    font-weight: bold;
+}
+.lists:hover {
+    color: #080c16;
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    border: 2px solid #00ad6a;
+    background-color: transparent;
+    color: #00ad6a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #00ad6a;
+    color: white;
+}
+.başlık {
+    text-align: center;
+    color: #080c16;
+    font-size: 15pt;
+    margin-top: 20px;
+}
+.parag {
+    font-size: 10pt;
+}
+.üstortataraf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.ilkbölüm {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border: none;
+    padding-right: 20px;
+}
+.ilkbölümbaşı {
+    color: #00ad6a;
+}
+.ilklist {
+    list-style:disc;
+    margin-top: 10px;
+}
+.ilkparag {
+    margin-top: 10px;
+}
+.span1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.ortabölüm {
+    width: 290px;
+    height: 550px;
+    border: 2px solid #b4adb0;
+    border-radius: 10px 10px 0 0;
+    background-color: #fcfcfc;
+}
+.recommended {
+    text-align: center;
+    font-size: 8pt;
+    height: 20px;
+    background-color: #00ad6a;
+    color: white;
+    line-height: 20px;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+.başlıklar {
+    margin-top: 15px;
+}
+.ortabaşlık {
+    text-align: center;
+    color: #00ad6a;
+    font-size: 18pt;
+}
+.parag2 {
+    text-align: center;
+    margin-top: 5px;
+    color: grey;
+}
+.btn2 {
+    font-weight: bolder;
+    height: 35px;
+    width: 120px;
+    margin-left: 31%;
+    margin-top: 15px;
+    background-color: #1fe374;
+    color: #080c16;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn2:hover {
+    background-color: #08bd56;
+}
+.check {
+    color: #00ad6a;
+}
+.ortaparag {
+    text-align: center;
+    font-size: 8pt;
+    margin-top: 15px;
+}
+.ortalist {
+    list-style: none;
+    margin-top: 10px;
+}
+.ortalists {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.sonbölüm {
+    width: 316px;
+    height: 450px;
+    border: none;
+    background-color: #fcfcfc;
+}
+.paraglar {
+    background-color: #d6dae5;
+    text-align: center;
+    padding: 15px;
+}
+.sonbaşlıklar {
+    padding-top: 15px;
+}
+.sonbaşlık {
+    text-align: center;
+    color: #1fe374;
+}
+.extra {
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+}
+.btn3 {
+    font-weight: bolder;
+    height: 35px;
+    width: 120px;
+    margin-left: 31%;
+    margin-top: 15px;
+    background-color: #1fe374;
+    color: #080c16;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn3:hover {
+    background-color: #08bd56;
+}
+.extra1 {
+    text-align: center;
+    font-size: 8pt;
+    margin-top: 15px;
+}
+.sonlist {
+    list-style: none;
+}
+.sonlists {
+    padding-left: 10px;
+}
+.res {
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 45px;
+}
+.üstsonparaglar {
+    margin-top: 15px;
+}
+.sonps {
+    text-align: center;
+    color: #080c16;
+}
+.cod {
+    color: #08bd56;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.faq {
+    margin-top: 60px;
+    margin-left: 115px;
+}
+.middle {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.part {
+    width: 500px;
+    margin-top: 40px;
+}
+.partparag1 {
+    margin-top: 25px;
+}
+.part3 {
+    margin-top: 120px;
+}
+.altbölüm {
+    background-color: #080c16;
+}
+.altüst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1fe374;
+}
+.altüstsol {
+    display: flex;
+    justify-content: space-around;
+}
+.altüst1 {
+    padding: 40px;
+}
+.altlist {
+    list-style: none;
+}
+.altl {
+    color: white;
+}
+.altlists {
+    margin: 5px;
+}
+.btn4 {
+    height: 30px;
+    width: 200px;
+    background-color: #1fe374;
+    color: #080c16;
+    border: none;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.btn4:hover {
+    background-color: #1cad5b;
+}
+.altalt {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.altparagraf {
+    color: white;
+    font-size: 9pt;
+    margin-left: 200px;
+}
+.btn5 {
+    background-color: #1fe374;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+.btn5:hover {
+    background-color: #16a353;
+}
